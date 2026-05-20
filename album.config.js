@@ -36,7 +36,7 @@ window.ALBUM_CONFIG = {
       type: "photo",
       accent: "#d62828",
       kicker: "Nossa armadura",
-      title: "A foto que me protege nos dias dif\u00edceis",
+      title: "O amor que me protege nos dias dif\u00edceis",
       image: "assets/photos/foto1.jpg",
       caption: ""
     },
@@ -46,7 +46,7 @@ window.ALBUM_CONFIG = {
       kicker: "Doutor Estranho",
       title: "Eu te amo em cada universo.",
       image: "assets/heroes/originals/doctor-strange.png",
-      body: "Se existirem infinitos caminhos, esta p\u00e1gina escolhe sempre aquele em que encontro voc\u00ea."
+      body: "Se existirem infinitos caminhos, vou escolher sempre aquele em que encontro voc\u00ea."
     },
     {
       type: "photo",
