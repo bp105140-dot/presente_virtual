@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111827">
+    <title>7 formas de dizer Eu te amo no estilo Marvel</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app" id="app">
+      <section class="cover-screen" id="coverScreen" aria-labelledby="coverTitle">
+        <img class="cover-image" id="coverImage" src="assets/images/comic-cover-neutral.jpg" alt="">
+        <div class="cover-shade" aria-hidden="true"></div>
+        <div class="cover-burst" aria-hidden="true"></div>
+        <div class="cover-content">
+          <p class="cover-kicker" id="coverKicker">Um álbum heroico para nós dois</p>
+          <h1 id="coverTitle">7 formas de dizer Eu te amo</h1>
+          <p class="cover-names" id="coverNames">Lia & Theo</p>
+          <p class="cover-date" id="coverDate">20 de maio de 2026</p>
+          <button class="primary-action" id="startButton" type="button">
+            Abrir multiverso
+          </button>
+        </div>
+      </section>
+
+      <main class="album-experience" id="albumExperience" aria-label="Álbum digital" hidden>
+        <header class="album-bar">
+          <button class="icon-button" id="prevButton" type="button" aria-label="Página anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15.5 5.25 8.75 12l6.75 6.75"></path>
+            </svg>
+          </button>
+
+          <div class="album-status">
+            <strong id="albumTitle">7 formas de dizer Eu te amo</strong>
+            <span id="pageCounter">1/14</span>
+          </div>
+
+          <div class="toolbar">
+            <button class="icon-button" id="soundButton" type="button" aria-label="Pausar música" aria-pressed="false">
+              <svg class="sound-on" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 9.75h4.5L14 5.25v13.5l-5.5-4.5H4z"></path>
+                <path d="M17 8.25a5 5 0 0 1 0 7.5"></path>
+                <path d="M19.5 5.5a9 9 0 0 1 0 13"></path>
+              </svg>
+              <svg class="sound-off" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 9.75h4.5L14 5.25v13.5l-5.5-4.5H4z"></path>
+                <path d="m18.5 9.5-5 5"></path>
+                <path d="m13.5 9.5 5 5"></path>
+              </svg>
+            </button>
+            <button class="icon-button" id="fullscreenButton" type="button" aria-label="Tela cheia">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8.5 4.75H4.75V8.5"></path>
+                <path d="M15.5 4.75h3.75V8.5"></path>
+                <path d="M19.25 15.5v3.75H15.5"></path>
+                <path d="M4.75 15.5v3.75H8.5"></path>
+              </svg>
+            </button>
+            <button class="icon-button" id="shareButton" type="button" aria-label="Compartilhar link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16.75 7.25 7.25 12l9.5 4.75"></path>
+                <circle cx="18" cy="6.5" r="2.25"></circle>
+                <circle cx="6" cy="12" r="2.25"></circle>
+                <circle cx="18" cy="17.5" r="2.25"></circle>
+              </svg>
+            </button>
+          </div>
+
+          <button class="icon-button" id="nextButton" type="button" aria-label="Próxima página">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8.5 5.25 15.25 12 8.5 18.75"></path>
+            </svg>
+          </button>
+        </header>
+
+        <section class="book-stage" aria-live="polite">
+          <div class="book-shell" id="bookShell">
+            <div class="book-shadow" aria-hidden="true"></div>
+            <div class="book" id="book" aria-label="Livro interativo"></div>
+          </div>
+        </section>
+
+        <div class="progress-dots" id="progressDots" aria-hidden="true"></div>
+      </main>
+    </div>
+
+    <script src="album.config.js"></script>
+    <script src="vendor/page-flip.browser.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-label="Doutor Estranho chibi">
+  <defs>
+    <filter id="outline" x="-20%" y="-20%" width="140%" height="140%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="stroke"/>
+      <feFlood flood-color="#ffffff" result="white"/>
+      <feComposite in="white" in2="stroke" operator="in" result="outline"/>
+      <feMerge><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#outline)" stroke="#111827" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="450" cy="490" rx="150" ry="24" fill="#111827" opacity=".24" stroke="none"/>
+    <path d="M298 260c-70 28-116 96-126 192 78-36 132-28 198 6zM602 260c70 28 116 96 126 192-78-36-132-28-198 6z" fill="#b91c1c" stroke-width="10"/>
+    <path d="M332 264h236v186c-28 50-76 66-118 66s-90-16-118-66z" fill="#1d4ed8" stroke-width="10"/>
+    <path d="M360 322h180l-30 122H390z" fill="#0f172a" stroke-width="8"/>
+    <path d="M324 448h88v70h-88zM488 448h88v70h-88z" fill="#1d4ed8" stroke-width="8"/>
+    <circle cx="450" cy="176" r="114" fill="#ffd6cc" stroke-width="12"/>
+    <path d="M332 162c22-88 88-126 164-118 68 8 106 48 102 126-48-34-94-38-138-16-52 26-90 16-128 8z" fill="#4b2a21" stroke-width="10"/>
+    <path d="M336 172c-24 18-38 56-22 90l42-36zM564 172c24 18 38 56 22 90l-42-36z" fill="#cbd5e1" stroke-width="8"/>
+    <path d="M386 184c28-16 58-16 86 0M500 184c28-16 58-16 86 0" fill="none" stroke-width="10"/>
+    <circle cx="408" cy="216" r="12" fill="#0ea5e9" stroke="none"/>
+    <circle cx="526" cy="216" r="12" fill="#0ea5e9" stroke="none"/>
+    <path d="M412 264c26 18 52 18 78 0" fill="none" stroke-width="8"/>
+    <g transform="translate(262 310)">
+      <circle cx="76" cy="70" r="54" fill="none" stroke="#f97316" stroke-width="12"/>
+      <circle cx="76" cy="70" r="28" fill="none" stroke="#f6c453" stroke-width="8"/>
+      <path d="M22 70h108M76 16v108M38 32l76 76M114 32l-76 76" stroke="#f6c453" stroke-width="6"/>
+    </g>
+    <path d="M562 326c44 16 70 44 88 88" fill="none" stroke="#f97316" stroke-width="12"/>
+  </g>
+</svg>

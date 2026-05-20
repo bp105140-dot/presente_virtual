@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-label="Thor chibi">
+  <defs>
+    <filter id="outline" x="-20%" y="-20%" width="140%" height="140%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="8" result="stroke"/>
+      <feFlood flood-color="#ffffff" result="white"/>
+      <feComposite in="white" in2="stroke" operator="in" result="outline"/>
+      <feMerge><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#outline)" stroke="#111827" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="450" cy="486" rx="164" ry="24" fill="#111827" opacity=".24" stroke="none"/>
+    <path d="M304 260c-68 42-96 112-90 206 72-28 118-16 168 12zM596 260c68 42 96 112 90 206-72-28-118-16-168 12z" fill="#b91c1c" stroke-width="10"/>
+    <path d="M334 272h232v176c-30 48-78 68-116 68s-86-20-116-68z" fill="#1f2937" stroke-width="10"/>
+    <circle cx="394" cy="336" r="24" fill="#d1d5db" stroke-width="7"/>
+    <circle cx="506" cy="336" r="24" fill="#d1d5db" stroke-width="7"/>
+    <path d="M360 448h82v72h-82zM458 448h82v72h-82z" fill="#1f2937" stroke-width="8"/>
+    <circle cx="450" cy="174" r="116" fill="#ffd6cc" stroke-width="12"/>
+    <path d="M344 162c22-82 78-122 156-116 72 6 118 54 120 124-54-34-104-44-150-20-46 24-86 20-126 12z" fill="#f6c453" stroke-width="10"/>
+    <path d="M388 208c26-18 54-18 82 0M500 208c28-18 58-18 86 0" fill="none" stroke-width="10"/>
+    <circle cx="420" cy="228" r="10" fill="#38bdf8" stroke="none"/>
+    <circle cx="530" cy="228" r="10" fill="#38bdf8" stroke="none"/>
+    <path d="M418 270c22 14 48 14 70 0" fill="none" stroke-width="8"/>
+    <g transform="rotate(-18 656 322)">
+      <rect x="582" y="252" width="142" height="72" rx="8" fill="#d1d5db" stroke-width="10"/>
+      <rect x="636" y="316" width="34" height="124" rx="12" fill="#7c2d12" stroke-width="8"/>
+    </g>
+    <path d="M190 88 144 256h90l-56 180 220-262h-98l50-86zM706 80 656 226h86l-126 204 50-154h-92z" fill="#f6c453" stroke-width="8"/>
+  </g>
+</svg>

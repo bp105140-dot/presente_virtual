@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-label="Homem de Ferro chibi">
+  <defs>
+    <filter id="outline" x="-20%" y="-20%" width="140%" height="140%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="stroke"/>
+      <feFlood flood-color="#ffffff" result="white"/>
+      <feComposite in="white" in2="stroke" operator="in" result="outline"/>
+      <feMerge><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#outline)" stroke="#111827" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="450" cy="476" rx="164" ry="24" fill="#111827" opacity=".26" stroke="none"/>
+    <path d="M322 238c-32 34-52 92-44 154 14 106 96 124 172 124s158-18 172-124c8-62-12-120-44-154z" fill="#e52b2e" stroke-width="12"/>
+    <path d="M356 350h188l22 132c-28 22-72 34-116 34s-88-12-116-34z" fill="#b91c1c" stroke-width="10"/>
+    <circle cx="450" cy="420" r="38" fill="#f8fafc" stroke-width="10"/>
+    <circle cx="450" cy="420" r="18" fill="#38bdf8" stroke="none"/>
+    <path d="M346 280h208v84H346z" fill="#f6c453" stroke-width="10"/>
+    <path d="M300 142c26-56 86-90 150-90s124 34 150 90l-20 122H320z" fill="#e52b2e" stroke-width="12"/>
+    <path d="M348 130h204l28 70-36 76H356l-36-76z" fill="#f6c453" stroke-width="10"/>
+    <path d="M362 220c34-22 72-22 110 0M528 220c38-22 76-22 110 0" fill="none" stroke-width="12"/>
+    <path d="M378 220h72l-16 28h-72zM522 220h72l32 28h-86z" fill="#e0f2fe" stroke-width="8"/>
+    <path d="M278 360l-70 76 82 22 40-66zM622 360l70 76-82 22-40-66z" fill="#e52b2e" stroke-width="10"/>
+    <path d="M330 514h-62v-74h76zM570 514h62v-74h-76z" fill="#e52b2e" stroke-width="10"/>
+    <path d="M282 486h60M558 486h60M388 344h124" fill="none" stroke="#f6c453" stroke-width="10"/>
+  </g>
+</svg>
