@@ -2,8 +2,8 @@ window.ALBUM_CONFIG = {
   cover: {
     title: "7 formas de dizer Eu te amo",
     kicker: "Um \u00e1lbum heroico para n\u00f3s dois",
-    names: "Lia & Theo",
-    date: "20 de maio de 2026",
+    names: "Van & Tildi",
+    date: "15 de dezembro de 2019",
     image: "assets/images/comic-cover-neutral.jpg",
     buttonLabel: "Abrir multiverso"
   },
